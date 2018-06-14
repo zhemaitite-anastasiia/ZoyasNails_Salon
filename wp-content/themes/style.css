@@ -24,9 +24,8 @@
  */
 
  /*Fonts*/
- .current-city {
-    display:none;
- }
+
+
  
  .getorder {
      position: relative;
@@ -641,7 +640,7 @@
      color: #5a6570;
      font-weight: 900;
      padding: 0 7px;
-     margin-left:40px;
+    
  }
  
  .top_nav .top_nav_wrapper > ul > li:first-child > a:before,
