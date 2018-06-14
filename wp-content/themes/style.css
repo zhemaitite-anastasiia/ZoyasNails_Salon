@@ -584,7 +584,7 @@
      background: #e6c0b6;
      box-shadow: 0 0 6px 0 rgba(0, 0, 0, .3);
      color: #e6c0b6;
-     margin-left: 54;
+    
      font-size: 30px;
  }
  
@@ -637,10 +637,11 @@
  .top_nav .main_menu_nav > ul > li {
      position: relative;
      float: left;
-     font-size: 18px;
-     color: #ffffff;
+     font-size: 28px;
+     color: #5a6570;
      font-weight: 900;
      padding: 0 7px;
+     margin-left:40px;
  }
  
  .top_nav .top_nav_wrapper > ul > li:first-child > a:before,
@@ -654,7 +655,7 @@
      display: block;
      border-top: 4px solid transparent;
      border-bottom: 4px solid transparent;
-     color: #000;
+     color: #5a6570;
      font-weight: normal;
      padding: 21px 0px;
      height: 64px;
@@ -680,12 +681,12 @@
  
  .page-id-1240 .top_nav .top_nav_wrapper .top_nav__link_non-active:hover,
  .page-id-1240 .top_nav .top_nav_wrapper .top_nav__link_active:hover {
-     color:#e6c0b6;
+     color:#5a6570;
  }
  
  .top_nav .top_nav_wrapper > ul > li > a:hover,
  .top_nav .main_menu_nav > ul > li > a:hover {
-     color: #e6c0b6;
+     color: #5a6570;
      transition: color 0.2s ease;
  }
  
