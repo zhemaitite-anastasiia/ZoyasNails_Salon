@@ -53,7 +53,7 @@ jQuery(document).ready(function ($) {
 
     $('#menu_toggle').live('click', function () {
         $(this).toggleClass('open');
-        $('.mobile_header .top_nav_mobile').slideToggle(300);
+        $(' .top_nav_mobile').slideToggle(300);
         return false;
     });
 

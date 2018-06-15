@@ -151,7 +151,7 @@
     }
 
     .mobile_header .header_info{
-        background: #c41d54;
+        background: #d19cc0;
         padding: 0 18px;
     }
 
@@ -306,7 +306,7 @@
         color: #fff;
         text-transform: uppercase;
         font-weight: 900;
-        background: #c41d54;
+        background: #e6c0b6;
     }
 
     .mobile_header .top_nav_mobile .main_menu_nav > li:hover{

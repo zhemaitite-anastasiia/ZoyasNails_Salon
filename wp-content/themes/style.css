@@ -680,12 +680,12 @@
  
  .page-id-1240 .top_nav .top_nav_wrapper .top_nav__link_non-active:hover,
  .page-id-1240 .top_nav .top_nav_wrapper .top_nav__link_active:hover {
-     color:#5a6570;
+     color:#d19cc0;
  }
  
  .top_nav .top_nav_wrapper > ul > li > a:hover,
  .top_nav .main_menu_nav > ul > li > a:hover {
-     color: #5a6570;
+     color: #d19cc0;
      transition: color 0.2s ease;
  }
  
@@ -760,7 +760,7 @@
  .top_nav .main_menu_nav > ul > li ul li:hover > a:hover,
  .top_nav .main_menu_nav > ul > li ul li.current-menu-item > a.entry_big:hover {
      color: #e6c0b6;
-     background: #e9587f;
+     background: #d19cc0;
  }
  
  .page-id-1240 .top_nav .icon_text .icon_text_phone_non-active,
@@ -929,7 +929,7 @@
  
  .icon_box .icon {
      position: relative;
-     color: #c41d54;
+     color: #bd9595;
      margin: 0 0 10px;
  }
  
@@ -943,7 +943,7 @@
      width: 50px;
      height: 50px;
      border-radius: 50%;
-     background: #c41d54;
+     background: #bd9595;
      opacity: 0.1;
  }
  
@@ -958,7 +958,7 @@
      display: block;
      width: 24px;
      height: 2px;
-     background: #c41d54;
+     background: #dd567b;
      margin: 15px auto 0;
  }
  
@@ -9008,7 +9008,7 @@
  
      .entry__button_big {
          width: 244px;
-         height: 52px;
+         height: 82px;
          color: #fff;
          line-height: 28px;
          font-size: 22px;
@@ -9167,7 +9167,7 @@
      }
  
      .header-lower__title {
-         font-size: 26px;
+         font-size: 56px;
      }
  
      .header-lower__title2 {
