@@ -4915,7 +4915,7 @@
  .logo img {
      width: 365px !important;
      height: 230px !important;
-     margin-left:-150px;
+     margin-left:-110px;
      margin-top:-70px;
  }
  
@@ -7703,7 +7703,7 @@
  }
  
  
- 
+
  
  
  
@@ -8546,13 +8546,19 @@
      .current-city {
          display: block;
      }
+     .btn btn-default {
+         position: center;
+     }
  }
  
  @media only screen and (max-width: 1400px) {
        .icon_text-wrapper {
          display: none;
      }
-    
+
+    .btn btn-default {
+         position: center;
+     }
      .social {
          float: none;
          margin-top: -3px;
@@ -8590,6 +8596,9 @@
      .entry_top_nav {
          display: none;
      }
+     .btn btn-default {
+        position: center;
+    }
  
      .top_nav .top_nav_wrapper > ul > li,
      .top_nav .main_menu_nav > ul > li {
@@ -8714,6 +8723,9 @@
      .page-id-1240 .video {
          width: auto;
      }
+     .btn btn-default {
+        position: center;
+    }
  
  }
  
@@ -8732,6 +8744,9 @@
         color: #e6c0b6;
         font-size: 20px;
         margin-left: 30;
+    }
+    .btn btn-default {
+        position: center;
     }
  
      .header-wrapper {
@@ -8814,6 +8829,12 @@
      .current-city {
     display:none;
  }
+ .btn btn-default {
+    position: center;
+}
+.instagram__subscribe{
+    margin-left:250px;
+}
      .el_share {
          width: 100% ;
      }
@@ -8964,7 +8985,9 @@
          padding-left: 0 !important;
      }
  
-   
+     .btn btn-default {
+        position: center;
+    }
  
      .location {
          margin-left: 0;
@@ -8986,11 +9009,16 @@
      {
          float:none;
      }
+     .instagram__subscribe{
+         margin-left:60px;
+     }
      .excerpt
      {
          margin-bottom:30px;
      }
- 
+     .btn btn-default {
+        position: center;
+    }
      #phrasewithgirl h2
      {
          font-size: 25px;
@@ -9275,6 +9303,12 @@
          padding-left:5px;
  
      }
+     .instagram__subscribe{
+         margin-left:0px;
+     }
+     .btn btn-default {
+        position: center;
+    }
      .el_share2, .el_share {
  
          width: 100% !important;
@@ -9408,6 +9442,12 @@
      .share_02 .ms-info {
          max-width: 100% !important;
      }
+     .instagram__subscribe{
+        margin-left:0px;
+    }
+     .btn btn-default {
+        position: center;
+    }
  
      .share_02 .ms-info {
          width: 300px !important;
