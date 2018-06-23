@@ -3031,7 +3031,7 @@
      border: 2px solid #dadada;
  }
  
- .our_partners .logo img {
+ .our_partners  {
      display: block;
      width: 100%;
      height: auto;
@@ -4915,7 +4915,7 @@
  .logo img {
      width: 365px !important;
      height: 230px !important;
-     margin-left:-70px;
+     margin-left:-150px;
      margin-top:-70px;
  }
  
@@ -8552,10 +8552,7 @@
        .icon_text-wrapper {
          display: none;
      }
-     .current-city {
-         display: none;
-     }
- 
+    
      .social {
          float: none;
          margin-top: -3px;
@@ -8610,10 +8607,7 @@
          width: auto;
      }
  
-     .studios-salon {
-         margin-left: 60px;
-     }
- 
+    
      .up,
      .down {
          left: inherit;
@@ -8727,15 +8721,27 @@
  
      .page-id-1240 .video-container {
          display: none;
+         background: url("wp-content/uploads/2018/02/blonde.jpg") center top no-repeat;
      }
  
-     .page-id-1240 #header {
-         background: rgba(0, 0, 0, 0.5);
-     }
+     /* .page-id-1240 #header {
+        background: url("wp-content/uploads/2018/02/blonde.jpg") center top no-repeat; */
+         /* background: #9aacbd33; */
+     /* } */
+     .page-id-1240 .top_nav .top_nav_wrapper .top_nav__link_non-active, .page-id-1240 .top_nav .top_nav_wrapper .current-city__item_non-active {
+        color: #e6c0b6;
+        font-size: 20px;
+        margin-left: 30;
+    }
  
      .header-wrapper {
-         background: url("assets/images/tmp/header_bg2.jpg") center top no-repeat;
+         background: url("wp-content/uploads/2018/02/blonde.jpg") center top no-repeat;
      }
+     .header-lower__title {
+        margin-bottom: 8px;
+        color: black;
+        font-weight: 300;
+    }
  
      .studios-salon_small {
          display: none;
@@ -8885,9 +8891,10 @@
      .container_advantages {
          background-size: 40%;
      }
- 
+     
      .header-wrapper {
          background-size: cover;
+         background: url("wp-content/uploads/2018/02/blonde.jpg") center top no-repeat;
      }
  
      .share_01,
@@ -9003,6 +9010,12 @@
  
      .page-id-1240 .attached-nav {
          display: none;
+     }
+     .header-wrapper{
+         margin-bottom:30px;
+     }
+     .header-content{
+         height:750px;
      }
  
      .entry_big {
