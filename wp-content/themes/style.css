@@ -9301,7 +9301,17 @@
          margin:0;
          padding:0;
          padding-left:5px;
+        
  
+     }
+     iframe{
+         width:450px;
+     }
+     .\"services-list\"{
+         margin-left:-100px;
+     }
+     .service-item__wrapper{
+         margin-left:-20px;
      }
      .instagram__subscribe{
          margin-left:0px;
@@ -9448,6 +9458,13 @@
      .btn btn-default {
         position: center;
     }
+    .service-item__wrapper{
+        width:420px;
+        height:500px;
+    }
+    iframe{
+        width:380px;
+    }
  
      .share_02 .ms-info {
          width: 300px !important;
@@ -9479,7 +9496,12 @@
      .city__list {
          columns: 1;
      }
- 
+     /* .about-img{
+         width:300px;
+         height:250px;
+         padding-left:0;
+     }
+  */
      .chosen-studio__title-container {
          display: none;
      }
