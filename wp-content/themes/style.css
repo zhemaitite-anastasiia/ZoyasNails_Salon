@@ -9009,9 +9009,14 @@
      {
          float:none;
      }
-     .instagram__subscribe{
+     /* .instagram__subscribe{
          margin-left:60px;
-     }
+     } */
+     .instagram__subscribe{
+        font-size:25px;
+        margin-left:4px;
+       
+    } 
      .excerpt
      {
          margin-bottom:30px;
@@ -9277,14 +9282,14 @@
          font-size: 24px;
      }
  
-     .menu-item-1878,
+     /* .menu-item-1878,
      .prices-page {
          /*display: none;*/
-     }
+     
  
-     .prices-mobile {
+     /* .prices-mobile {
          /*display: block;*/
-     }
+     
      .price_detail {
          column-count: 1;
          padding-left: 0px;
@@ -9313,9 +9318,9 @@
      .service-item__wrapper{
          margin-left:-20px;
      }
-     .instagram__subscribe{
+     /* .instagram__subscribe{
          margin-left:0px;
-     }
+     } */
      .btn btn-default {
         position: center;
     }
@@ -9443,6 +9448,11 @@
      .share__description_03 {
          width: 90%;
      }
+     .instagram__subscribe{
+        font-size: 20px;
+        margin-right: -40px;
+        margin-left: -50px;
+    } 
  
  }
  
@@ -9453,8 +9463,10 @@
          max-width: 100% !important;
      }
      .instagram__subscribe{
-        margin-left:0px;
-    }
+        font-size: 17px;
+        margin-left: 10px;
+        margin-right: -60px;
+    } 
      .btn btn-default {
         position: center;
     }
