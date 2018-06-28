@@ -9463,9 +9463,9 @@
          max-width: 100% !important;
      }
      .instagram__subscribe{
-        font-size: 17px;
+        font-size: 13px;
         margin-left: 10px;
-        margin-right: -60px;
+       margin-right:-1px;
     } 
      .btn btn-default {
         position: center;
