@@ -320,7 +320,7 @@
             </header>
           
             <div id="main" style="
-            margin-top: 41px;background-image: url(wp-content/uploads/2018/02/.jpg);">
+            margin-top: 41px;background-image: url(wp-content/uploads/2018/02/polish1.png);">
     
                     <div class="content-area">
                             
@@ -332,7 +332,9 @@
                                         <div class="well-title">
                                             <h2 style="text-align:center">Your Appointment is just a click away!</h2>
                                         </div>
-                                        <form method="POST" action="https://formspree.io/zoyasnails@gmail.com"> 
+
+
+                                        <form id="contactform"method="POST" action="https://formspree.io/a.zhemaitite@gmail.com"> 
                                             <!-- Form start -->
                                             <!-- <div class="row">
                                                     
@@ -399,7 +401,7 @@
                                                                 <option value="3 p.m.">3p.m.</option>
                                                                 <option value="4 p.m.">4p.m.</option>
                                                                 <option value="5 p.m.">5p.m.</option>
-                                                                <option value="6 p.m.">6p.m.</option>
+                                                               
                                                                
                                                               
                                                             </select>
@@ -438,18 +440,34 @@
                                                 <!-- Button -->
                                                 <div class="col-md-12">
                                                     <div class="form-group" style="text-align: center">
-                                                        <button id="singlebutton" type="submit" class="btn btn-default" name="Have a nice day! Zoya, it's your money;)LOL" 
+                                                        <button id="singlebutton" class="sendmessage" type="submit" class="btn btn-default" name="Have a nice day! Zoya, it's your money;)LOL" 
                                                         style="background-color: pink;
                                                         text-align: center;
                                                       width:200px;
                                                         height: 60px;
                                                       
                                                         margin-top: 20px">Book Appointment</button>
+                                                      
                                                     </div>
                                                 </div>
                                             </div>
                                         </form>
-                                    
+                                    <script>
+
+                                        var message = "";
+
+$(".sendMessage").on("click", function() {
+    message = $("#contactform").serialize();
+    $.ajax({
+        url: "//formspree.io/a.zhemaitite@gmail.com", 
+        method: "POST",
+        data: {message: message},
+        dataType: "json"
+    });
+    alert('Thanks for the email, we\'ll be in touch promptly.');
+    return false;
+});
+                                    </script>
                                         <!-- form end -->
                                     </div>
                                 </div>	</div>
@@ -484,11 +502,11 @@
 					<p class="mbr-text" style="color:white;margin-top:30px;">
 						<strong>Work Hours</strong>
 						<br>
-						<br>Monday: 8:00 AM – 6:00 PM
-						<br>Tuesday: 8:00 AM – 6:00 PM
-						<br>Wednesday: 8:00 AM – 6:00 PM
-						<br>Thursday: 8:00 AM – 6:00 PM
-						<br>Friday: 8:00 AM – 6:00 PM
+						<br>Monday: 8:00 AM – 5:00 PM
+						<br>Tuesday: 8:00 AM – 5:00 PM
+						<br>Wednesday: 8:00 AM – 5:00 PM
+						<br>Thursday: 8:00 AM – 5:00 PM
+						<br>Friday: 8:00 AM – 5:00 PM
 						<br>Saturday: 8:00 AM – 2:00 PM
                         <br>Sunday: closed
 					</p>
