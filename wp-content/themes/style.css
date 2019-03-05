@@ -6394,7 +6394,7 @@
  
  .service-item__price-block {
      position: absolute;
-     bottom: 20px;
+     bottom: 0px;
      margin-top: 37px;
      margin-left: 15px;
  }
